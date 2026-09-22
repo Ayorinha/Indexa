@@ -1,1 +1,2 @@
-"""Indexa public package."""\nfrom .core import *\n
+"""Indexa public API."""
+from .core import Chunk, Retriever
