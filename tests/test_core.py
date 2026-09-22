@@ -1,0 +1,1 @@
+from indexa.core import *\n\ndef test_core_import():\n    assert True\n\ndef test_retrieval():\n r=Retriever([Chunk("alpha beta","a",0)]); assert r.search("alpha")[0].source=="a"\n
